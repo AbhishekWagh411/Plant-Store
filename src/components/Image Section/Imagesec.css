@@ -84,4 +84,31 @@
  align-items: center;
  overflow: hidden;
 }
+.blackSpot-container{
+  
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.blackSpot{
+  width: 450px;
+  height:400px;
+  background-color:black ;
+  box-sizing: border-box;
+  margin-bottom: -100px;
+  border-radius: 47% 47% 0% 47%;
+  position: relative;
+}
 
+.treeImage{
+  object-fit: cover;
+    border-radius: inherit; /* Inherit border radius from parent */
+    position: absolute;
+    bottom: 0;
+}
+.tree{
+  width: 411px;
+  height: 514px;
+  margin-left: 80px;
+  margin-bottom: 70px;
+}
