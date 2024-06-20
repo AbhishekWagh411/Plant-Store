@@ -17,6 +17,10 @@ export default function Imagesec() {
                       <span className='textin100'>Customers</span>
                     </div>
                   </div>
+                  <div className='searchBar'>
+                    <span className='icon'></span>
+                    <input type="text" placeholder="What are You looking for?"/>
+                  </div>
               </div>
               <div className='right-side'>
                 <div className='blackSpot-container'>
